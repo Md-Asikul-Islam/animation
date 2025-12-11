@@ -7,10 +7,10 @@ import SpinnigIcon from "@/transforms/SpinnigIcon";
 const Home = () => {
   return (
     <>
-      <Box />
+      {/* <Box /> */}
       {/* <BouncingCircle /> */}
       {/* <ComplexAnimation /> */}
-      {/* <SkewRectangle /> */}
+      <SkewRectangle />
       {/* <SpinnigIcon /> */}
     </>
   );

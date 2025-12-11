@@ -1,9 +1,18 @@
-import React from 'react'
+import * as motion from "motion/react-client";
 
 const BouncingCircle = () => {
   return (
-    <div>BouncingCircle</div>
-  )
-}
+    <motion.div
+      className="bg-red-500 rounded-full w-[200px] h-[200px] "
+      animate={{ y: [0, -70, 0] }}
+      transition={{
+        duration: 5,
+        repeat: Infinity,
+        repeatType: "loop",
+        ease: "easeInOut",
+      }}
+    ></motion.div>
+  );
+};
 
-export default BouncingCircle
+export default BouncingCircle;
