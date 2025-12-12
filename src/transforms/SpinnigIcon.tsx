@@ -1,5 +1,4 @@
 import * as motion  from "motion/react-client";
-import Image from "next/image";
 import img from "@/assests/b-7.jpg";
 
 const SpinningIcon = () => {
